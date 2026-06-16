@@ -1,6 +1,6 @@
 @echo off
 setlocal
-
+##
 cd /d "%~dp0" || (
   echo [ERROR] Failed to change directory to "%~dp0"
   pause
